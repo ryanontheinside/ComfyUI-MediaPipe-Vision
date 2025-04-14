@@ -1,0 +1,15 @@
+[project]
+name = "mediapipe-vision"
+description = "A centralized wrapper of all MediaPipe vision tasks for ComfyUI."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["mediapipe>=0.10.9", "opencv-python>=4.7.0", "numpy>=1.20.0", "scipy>=1.8.0"]
+
+[project.urls]
+Repository = "https://github.com/ryanontheinside/ComfyUI-MediaPipe-Vision"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-MediaPipe-Vision"
+Icon = ""
